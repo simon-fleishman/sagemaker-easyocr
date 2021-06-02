@@ -1,15 +1,3 @@
-.venv 
-.vscode 
-.model_dir
-.train_data/
-data/
-face_gen_gan/
-.model
 model.tar.gz
-t5_ans_gen_model
-t5_que_gen_model
-.scratch
-*.bin
-.model
 __pycache__
 .ipynb_checkpoints
