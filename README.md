@@ -25,7 +25,10 @@
        Note: If you already have a bucket that you’d like to use instead, choose Specific S3 buckets and specify the bucket name. 
        Amazon SageMaker creates the AmazonSageMaker-ExecutionRole-*** role 
    e. In Git section add repository https://github.com/simon-fleishman/sagemaker-easyocr.git 
+
    f. Keep the default settings for the remaining options and choose Create notebook instance. 
+
       in the Notebook instances section, the new SageMaker-easyocr notebook instance is displayed with a Status of Pending. The notebook is ready when the Status changes to InService. 
+
 (2) Stop and delete the notebook
        
