@@ -30,5 +30,7 @@
 
       in the Notebook instances section, the new SageMaker-easyocr notebook instance is displayed with a Status of Pending. The notebook is ready when the Status changes to InService. 
 
-(2) Stop and delete the notebook
+(2) Execute the cells one-by-one
+
+(3) Stop and delete the notebook
        
