@@ -12,3 +12,4 @@ t5_que_gen_model
 *.bin
 .model
 __pycache__
+.ipynb_checkpoints
