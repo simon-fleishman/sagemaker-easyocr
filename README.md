@@ -14,7 +14,7 @@
 
    c. On the Create notebook instance page, in the Notebook instance setting box, fill the following fields: 
 
-      For Notebook instance name, type say SageMaker-easyocr 
+      For Notebook instance name, type SageMaker-easyocr 
 
       For Notebook instance type, choose ml.t2.medium. 
 
@@ -24,7 +24,7 @@
 
        Note: If you already have a bucket that you’d like to use instead, choose Specific S3 buckets and specify the bucket name. 
        Amazon SageMaker creates the AmazonSageMaker-ExecutionRole-*** role 
-   e. In Git section add repository https://github.com/simon-fleishman/sagemaker-easyocr.git 
+   e. In Git section add repository https://github.com/simon-fleishman/sagemaker-easyocr.git for cloning into the notebook
 
    f. Keep the default settings for the remaining options and choose Create notebook instance. 
 

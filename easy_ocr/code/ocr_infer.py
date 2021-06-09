@@ -11,7 +11,7 @@ logger = logging.getLogger(__name__)
 
 def model_fn(model_dir):
     logger.info('Creating the reader.')
-    reader = easyocr.Reader(['ko','en'])
+    reader = easyocr.Reader(['en'])
 
     return reader
 
