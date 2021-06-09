@@ -30,7 +30,23 @@
 
       in the Notebook instances section, the new SageMaker-easyocr notebook instance is displayed with a Status of Pending. The notebook is ready when the Status changes to InService. 
 
-(2) Execute the cells one-by-one
+(2) Open the notebook ea_ocr.ipynp
 
-(3) Stop and delete the notebook
+(3) Execute the cells one by one
+
+(4) Stop and delete the notebook
        
+=======================================
+
+For remote execution: install python locally, and 2 libraries: boto3 and sagemaker
+
+Create file ~/.aws/credentials and put aws keys for your account there:
+
+[defailt]
+aws_access_key_id=XXXXXX
+aws_secret_access_key=yyyyyyy
+
+NOTE: Access key ID can be found in AWS IAM / Users section for the given user (create a new user if needed)
+Secret key can be only captured when creating the user. If lost, create a new access key, and make the old key inactive
+
+https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html?icmpid=docs_iam_console
